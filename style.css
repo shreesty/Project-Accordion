@@ -10,13 +10,13 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 180px;
+    margin-top: 150px;
 }
 .main
 {
     background: white;
     height:500px;
-    width: 800px;
+    width: 900px;
     border-radius: 15px;
     border: 5px solid black;
     
@@ -50,4 +50,18 @@ body
     height:0px;
     overflow: hidden;
     /* display: none; */
+}
+
+.active .answer
+
+{
+    font-size: 21px;
+    height:60px;
+    padding:5px;
+    margin:0px;
+}
+.active .question::after
+
+{
+    content:'-'
 }
